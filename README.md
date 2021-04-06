@@ -1,6 +1,6 @@
 # Cloudflare DDNS Setup 
 
-Running cloudflare ddns client container to update public IP of server
+Running [cloudflare ddns client](https://github.com/oznu/docker-cloudflare-ddns) container to update public IP of server
 
 ## Steps
 
