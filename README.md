@@ -16,16 +16,16 @@ Click the API Tokens tab and then click `Create Custom Token`.
 
 Enter a token name and setup the `Permissions` section as follows:
 
-'Image'
+![permissions-image](https://github.com/FaSidd/cloudflare-ddns/blob/main/images/permissions.png)
 
 Then setup the `Zone Resources` section as follows:
 
-'Image'
-
+![resources-image](https://github.com/FaSidd/cloudflare-ddns/blob/main/images/account.png)
+  
 In the last select box where it says `Select...` in the `Zone Rescources` you will select
 your cloudflare account.
 
-Then select `continue to summary` at the bottom and confirm changes.
+Then select `Continue to summary` at the bottom and confirm changes.
 
 ### Edit `docker-compose.yml` File
 
@@ -42,6 +42,7 @@ connect for DDNS.
       - PROXIED=false
 ...
 ```
+
 ### Run the Container
 
 After putting the info in the `docker-compose.yml` file now the container can be run.
@@ -50,5 +51,4 @@ After putting the info in the `docker-compose.yml` file now the container can be
 docker-compose up -d
 ```
 
-Now you the container should be up and running.
-
+Now the container should be up and running.
